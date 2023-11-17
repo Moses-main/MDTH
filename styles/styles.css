@@ -1,0 +1,101 @@
+/* Overall styles for all the pages */
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #e0dfdf;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+header {
+  background-color: rgb(5, 5, 63);
+  border: 1px solid rgb(5, 5, 63);
+  padding: 15px;
+}
+
+.nav-img {
+  height: 65px;
+  width: 65px;
+  border-radius: 9px;
+  border: 1px solid rgb(5, 5, 63);
+  margin: 0px 100px -45px 50px;
+}
+nav ul {
+  margin: -15px 0px 10px 0px;
+  padding: 4px;
+  text-align: center;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0px 30px 0px 50px;
+  text-align: center;
+}
+
+nav ul li a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+}
+
+#signup {
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 5px 5px 5px 5px;
+}
+
+/* FOOTER */
+footer {
+  position: fixed;
+  bottom: 0px;
+  padding: 0px 0px 5px 20px;
+  width: 80%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+/* DONATE PAGE */
+
+.btn-med {
+  background-color: rgb(5, 5, 63);
+  border-radius: 7px;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: large;
+  border: 1px solid rgb(5, 5, 63);
+}
+
+.center {
+  /* background-color: white; */
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: 0px auto;
+  padding: 15px 20px;
+  text-align: center;
+}
+.main {
+  background-color: white;
+  padding: 90px 20px 50px;
+
+  box-shadow: 3px 5px 2px white;
+  z-index: 1;
+}
+.big-font {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+/* HOME PAGE */
+
+/* ABOUT PAGE */
+
+/* CONTACT PAGE */
