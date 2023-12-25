@@ -7,11 +7,14 @@ body {
     "Lucida Sans", Arial, sans-serif;
 }
 
-header {
+p {
+  text-align: justify;
+}
+/* header {
   background-color: rgb(5, 5, 63);
   border: 1px solid rgb(5, 5, 63);
   padding: 15px;
-}
+} */
 
 .nav-img {
   height: 65px;
@@ -33,13 +36,13 @@ nav ul li {
   text-align: center;
 }
 
-nav ul li a {
+nav.desktop-view ul li a {
   font-weight: bold;
   color: white;
   text-decoration: none;
 }
 
-nav ul li a:hover {
+nav.desktop-view ul li a:hover {
   border-bottom: 2px solid white;
   padding-bottom: 5px;
 }
@@ -82,16 +85,181 @@ footer {
   padding: 15px 20px;
   text-align: center;
 }
+
 .main {
   background-color: white;
   padding: 90px 20px 50px;
-
   box-shadow: 3px 5px 2px white;
   z-index: 1;
+}
+
+.main p {
+  text-align: center;
 }
 .big-font {
   font-weight: bold;
   font-size: 2rem;
+}
+
+/* DONATE PAGE --- MOBILE VIEW  */
+/* Default hide mobile nav */
+.mobile-nav {
+  display: none;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+header {
+  display: block;
+  background-color: rgb(5, 5, 63);
+  border: 1px solid rgb(5, 5, 63);
+  padding: 15px;
+}
+
+#mobile_header {
+  display: block;
+  background-color: rgb(5, 5, 63);
+  border: 1px solid rgb(5, 5, 63);
+  padding: 15px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) and (min-width: 352px) {
+  /* Hide desktop view */
+  .desktop-view {
+    display: none;
+  }
+
+  .main p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  /* body {
+    background-color: red;
+  } */
+  .menu-toggle {
+    display: block;
+    color: white;
+    background-color: white;
+    border: 5px solid white;
+  }
+  .menu-icon {
+    display: block;
+    background: none;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1500;
+  }
+  /* Show mobile nav and style */
+  .mobile-nav {
+    /* text-align: center; */
+    display: none;
+    color: white;
+    /* border: 1px solid white; */
+    /* background-color: green; */
+    margin: 50px 0px 0px 0px;
+    /* background-color: red; */
+    /* visibility: ; */
+    position: sticky;
+    /* top: 60px; */
+    /* right: 0; */
+    margin-left: 50px;
+    /* width: fit-content; */
+    border-radius: 5px;
+    size: 4rem;
+    padding: 5px;
+    /* background-color: #fff; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1900;
+    /* transform: translateX(50%); */
+    /* transition: transform 0.3s ease-in-out; */
+  }
+
+  .mobile-nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+
+  .mobile-nav ul li {
+    padding: 5px 0;
+
+    display: block;
+  }
+
+  .mobile-nav ul li a {
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s ease;
+    color: rgb(5, 5, 63);
+    border-radius: 3px;
+    font-size: 1.3rem;
+    padding: 5px;
+    width: 200px;
+    background-color: white;
+  }
+
+  .mobile-nav ul li a:hover {
+    color: #555;
+    font-weight: bold;
+  }
+
+  /* Show the mobile navigation when the menu toggle button is clicked */
+  .menu-active .mobile-nav {
+    transform: translateX(0);
+    padding: 0px;
+    display: block;
+  }
+
+  /* Style for the menu toggle div */
+  .menu-toggle {
+    display: none;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1500;
+  }
+
+  /* Mobile navigation styles */
+  /* .mobile-nav {
+    display: block;
+  } */
+  .menu-toggle:focus {
+    outline: none; /* Remove default focus outline */
+  }
+
+  /* Style for the menu toggle button */
+  .menu-toggle {
+    display: block;
+    border: 1px solid white;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1500;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center;
+  }
+
+  /* Animation for toggle button */
+  .menu-active .menu-toggle {
+    transform: rotate(180deg);
+  }
+
+  .btn-med {
+    font-size: small;
+  }
 }
 
 /* HOME PAGE */
@@ -99,3 +267,31 @@ footer {
 /* ABOUT PAGE */
 
 /* CONTACT PAGE */
+
+/* COURSES */
+
+.first-section {
+  border: 1px solid red;
+  display: inline-block;
+  width: 70%;
+  margin: 0px auto;
+}
+
+.first-section div {
+  display: inline-block;
+  margin: 20px;
+  size: 50%;
+  padding: 10px;
+  width: 500px;
+  border: 2px solid black;
+}
+
+.course_img {
+  width: 500px;
+  border-radius: 6px;
+}
+
+.course_desc {
+  margin: 0px 0px 0px 50px;
+  border: 2px solid green;
+}
