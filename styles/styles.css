@@ -50,7 +50,7 @@ nav.desktop-view ul li a:hover {
 #signup {
   border-radius: 5px;
   border: 1px solid white;
-  padding: 5px 5px 5px 5px;
+  padding: 7px 7px 7px 7px;
 }
 
 /* FOOTER */
@@ -295,3 +295,34 @@ header {
   margin: 0px 0px 0px 50px;
   border: 2px solid green;
 }
+
+
+
+
+/* -------------------- */
+/* PAYMENT VERIFICATION */
+/* -------------------- */
+.otp{
+  height: 48px;
+  border: 1px solid grey !important;
+}
+
+.container{
+  overflow: auto;
+}
+
+.btn-primary{
+  height: 48px;
+  background-color: #05053f !important;
+  color: #fff;
+}
+.btn-outline-secondary{
+  height: 48px;
+  border: 1px solid #05053f !important;
+  color: #05053f !important;
+}
+
+.btn-outline-secondary:hover{
+  color: #fff !important;
+}
+
