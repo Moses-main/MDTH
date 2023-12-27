@@ -272,18 +272,18 @@ header {
 
 .first-section {
   border: 1px solid red;
-  display: inline-block;
-  width: 70%;
+  width: 90%;
+  container: inherit;
+  text-align: center;
   margin: 0px auto;
 }
 
 .first-section div {
   display: inline-block;
-  margin: 20px;
   size: 50%;
   padding: 10px;
+  margin: 0px 20px;
   width: 500px;
-  border: 2px solid black;
 }
 
 .course_img {
@@ -291,7 +291,50 @@ header {
   border-radius: 6px;
 }
 
-.course_desc {
-  margin: 0px 0px 0px 50px;
-  border: 2px solid green;
+.course-desc {
+  position: relative;
+  top: -100px;
+  margin: 0px 20px -70px 0px;
+  text-align: justify;
+}
+
+.course-desc p {
+  text-align: justify;
+}
+/* MEDIUM SCREEN SIZES FOR THE COURSES PAGE */
+@media screen and (max-width: 1319px) and (min-width: 246px) {
+  .course-desc {
+    border-radius: 5px;
+    margin: 0px 5px;
+    width: 400px !important;
+    padding: 10px !important;
+    top: 0px;
+    font-weight: 100 !important;
+  }
+
+  .img-container img {
+    width: 400px;
+  }
+
+  .img-container {
+    width: 400px;
+    margin: 0px 0px 0px -20px;
+  }
+}
+
+/* SMALL SCREEN SIZE FOR THE COURSES PAGE */
+@media screen and (max-width: 870px) {
+  .course-desc {
+    font-size: 0.5rem;
+    width: 380px !important;
+  }
+  .course-desc p {
+    font-size: 1rem;
+  }
+
+  .img-container img {
+    width: 380px !important;
+    margin: 0px 0px;
+    left: 2px !important;
+  }
 }
