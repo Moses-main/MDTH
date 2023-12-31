@@ -10,12 +10,6 @@ body {
 p {
   text-align: justify;
 }
-/* header {
-  background-color: rgb(5, 5, 63);
-  border: 1px solid rgb(5, 5, 63);
-  padding: 15px;
-} */
-
 .nav-img {
   height: 65px;
   width: 65px;
@@ -53,14 +47,20 @@ nav.desktop-view ul li a:hover {
   padding: 5px 5px 5px 5px;
 }
 
-/* FOOTER */
+/* FOOTER IN ALL THE PAGES*/
 footer {
-  position: fixed;
-  bottom: 0px;
-  padding: 0px 0px 5px 20px;
-  width: 80%;
+  position: relative;
+  /* bottom: 0px; */
+  /* padding: 0px 0px 5px 20px; */
+  /* width: 100%; */
   margin: 0px auto;
+  color: white;
+  padding: 5px;
+  background-color: rgb(5, 5, 63);
   text-align: center;
+}
+footer p {
+  color: white;
 }
 
 /* DONATE PAGE */
@@ -126,7 +126,7 @@ header {
 }
 
 /* Media query for smaller screens */
-@media screen and (max-width: 768px) and (min-width: 352px) {
+@media screen and (max-width: 921px) and (min-width: 352px) {
   /* Hide desktop view */
   .desktop-view {
     display: none;
@@ -136,9 +136,6 @@ header {
     font-size: 1.2rem;
     text-align: center;
   }
-  /* body {
-    background-color: red;
-  } */
   .menu-toggle {
     display: block;
     color: white;
@@ -157,27 +154,18 @@ header {
   }
   /* Show mobile nav and style */
   .mobile-nav {
-    /* text-align: center; */
     display: none;
     color: white;
-    /* border: 1px solid white; */
-    /* background-color: green; */
     margin: 50px 0px 0px 0px;
-    /* background-color: red; */
-    /* visibility: ; */
     position: sticky;
-    /* top: 60px; */
-    /* right: 0; */
     margin-left: 50px;
-    /* width: fit-content; */
     border-radius: 5px;
     size: 4rem;
     padding: 5px;
-    /* background-color: #fff; */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     z-index: 1900;
-    /* transform: translateX(50%); */
-    /* transition: transform 0.3s ease-in-out; */
+    transform: translateX(50%);
+    transition: transform 0.3s ease-in-out;
   }
 
   .mobile-nav ul {
@@ -271,9 +259,11 @@ header {
 /* COURSES */
 
 .first-section {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 90%;
+  box-shadow: 2px 1px 10px #aaa;
   container: inherit;
+  border-radius: 5px;
   text-align: center;
   margin: 0px auto;
 }
@@ -301,6 +291,38 @@ header {
 .course-desc p {
   text-align: justify;
 }
+
+.event-structure {
+  line-height: 2.1rem;
+  /* width: 348px; */
+}
+
+.event-structure li {
+  margin: 3px 0px;
+  list-style-type: upper-alpha;
+  font-size: 1.2rem;
+}
+.btn-get-started {
+  border-radius: 3px;
+  background-color: #fff;
+  border: 1px solid rgb(204, 107, 22);
+  font-weight: bold;
+}
+
+.btn-get-started a {
+  color: rgb(204, 107, 22);
+  text-decoration: none;
+}
+
+.end-note {
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+  font-size: 1.1rem;
+  /* width: 100% !important; */
+  background-color: rgb(247, 239, 196);
+}
+
 /* MEDIUM SCREEN SIZES FOR THE COURSES PAGE */
 @media screen and (max-width: 1319px) and (min-width: 246px) {
   .course-desc {
@@ -325,16 +347,43 @@ header {
 /* SMALL SCREEN SIZE FOR THE COURSES PAGE */
 @media screen and (max-width: 870px) {
   .course-desc {
+    margin: 80px 0px 0px 0px;
     font-size: 0.5rem;
-    width: 380px !important;
+    width: 180px !important;
   }
   .course-desc p {
-    font-size: 1rem;
-  }
+    font-size: 1.2rem;
 
+    width: 280px;
+    margin: 0px 0px 0px -50px;
+    padding: 12px;
+  }
+  .course-range {
+    font-size: 1.3rem;
+    text-decoration: underline;
+    /* color: red !important; */
+  }
+  .course {
+    font-size: 1.2rem;
+    text-align: center !important;
+  }
+  .img-container {
+    padding: 0px;
+    margin: 0px;
+    /* position: static; */
+    left: 40px;
+    width: 300px;
+  }
   .img-container img {
-    width: 380px !important;
     margin: 0px 0px;
-    left: 2px !important;
+    padding-right: 150px;
+  }
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  .main {
+    margin: 0px;
+    padding: 0px;
   }
 }
