@@ -36,10 +36,12 @@ nav ul li {
   text-align: center;
 }
 
-nav.desktop-view ul li a {
+nav.desktop-view ul li a,
+.no-text-style {
   font-weight: bold;
   color: white;
-  text-decoration: none;
+
+  text-decoration: none !important;
 }
 
 nav.desktop-view ul li a:hover {
@@ -296,33 +298,29 @@ header {
   border: 2px solid green;
 }
 
-
-
-
 /* -------------------- */
 /* PAYMENT VERIFICATION */
 /* -------------------- */
-.otp{
+.otp {
   height: 48px;
   border: 1px solid grey !important;
 }
 
-.container{
+.container {
   overflow: auto;
 }
 
-.btn-primary{
+.btn-primary {
   height: 48px;
   background-color: #05053f !important;
   color: #fff;
 }
-.btn-outline-secondary{
+.btn-outline-secondary {
   height: 48px;
   border: 1px solid #05053f !important;
   color: #05053f !important;
 }
 
-.btn-outline-secondary:hover{
+.btn-outline-secondary:hover {
   color: #fff !important;
 }
-
