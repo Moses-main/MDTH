@@ -43,38 +43,55 @@
 
     <main class="main">
       <!-- <section class="center"> -->
-      <div class="">
-        <h2>We’re Available 24/7</h2>
 
         <form action="">
-          <label for="fullname">Full Name</label>
-          <input
-            type="text"
-            name="fullname"
-            placeholder="Akindiya Beulah"
-            id="fullname"
-          />
-          <br />
-          <label for="email">Email</label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="example@gmail.com"
-          />
-          <br />
-          <textarea
-            name="messageBody"
-            id="messageBody"
-            cols="30"
-            rows="10"
-            placeholder="Enter your message"
-          ></textarea>
+          <div class="pic-input-div">
+            
+        <h2>We`re Available 24/7</h2>
+
+            <!-- <div class=""> -->
+              <div class="contact-img-container">
+                <img
+                  src="../img/contact_us.jpg"
+                  alt="contact us"
+                  class="img-container"
+                />
+              </div>
+      
+            <label class="contact-label" for="fullname">Full Name</label>
+            <input
+              type="text"
+              class="contact-input"
+              name="fullname"
+              placeholder="Akindiya Beulah"
+              id="fullname"
+            />
+            <br />
+            <label class="contact-label" for="email">Email</label>
+            <input
+              class="contact-input"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="example@gmail.com"
+            />
+            <!-- <br /> -->
+          </div>
+          <div class="msg-button-div">
+            <textarea
+              name="messageBody"
+              id="messageBody"
+              cols="80"
+              rows="20"
+              class="contact-msg"
+              placeholder="Enter your message"
+            >
+            </textarea>
+            <input class="center contact-submit" type="submit" value="Submit" />
+          </div>
         </form>
       </div>
-      <div class="img-container left">
-        <img style="width: 300px" src="../img/contact_us.jpg" alt="" />
-      </div>
+
       <!-- </section> -->
     </main>
 

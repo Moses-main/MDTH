@@ -253,9 +253,52 @@ header {
 /* HOME PAGE */
 
 /* ABOUT PAGE */
+.pic-input-div {
+  text-align: justify;
+  border: 1px solid red;
+  width: 400px;
+  padding: 0px 0px 10px 40px;
+  /* margin: 0px 0px 0px; */
+}
+.contact-label {
+  display: block;
+  margin-top: 14px;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+.contact-input {
+  height: 28px;
+  width: 300px;
+  text-align: justify;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+}
 
-/* CONTACT PAGE */
-
+.contact-msg {
+  margin-top: 20px;
+  text-align: justify;
+  padding: 10px;
+  width: 2rem;
+  background-color: rgb(253, 245, 221);
+  justify-self: start;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  outline: #aaa;
+}
+.contact-submit {
+  color: white;
+  display: block;
+  width: 280px;
+  margin-top: 20px;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #05053f;
+  background-color: #05053f;
+}
+.msg-button-div {
+  text-align: center;
+}
 /* COURSES */
 
 .first-section {
@@ -388,33 +431,29 @@ header {
   }
 }
 
-
-
-
 /* -------------------- */
 /* PAYMENT VERIFICATION */
 /* -------------------- */
-.otp{
+.otp {
   height: 48px;
   border: 1px solid grey !important;
 }
 
-.container{
+.container {
   overflow: auto;
 }
 
-.btn-primary{
+.btn-primary {
   height: 48px;
   background-color: #05053f !important;
   color: #fff;
 }
-.btn-outline-secondary{
+.btn-outline-secondary {
   height: 48px;
   border: 1px solid #05053f !important;
   color: #05053f !important;
 }
 
-.btn-outline-secondary:hover{
+.btn-outline-secondary:hover {
   color: #fff !important;
 }
-
