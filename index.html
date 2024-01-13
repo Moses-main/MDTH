@@ -2,62 +2,161 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css">
     <title>MDTH | Home</title>
   </head>
   <body>
-    <header>
-      <nav>
+    
+    <header id="deskop_header">
+      <img class="nav-img" src="/img/MDTH_Logo(white).jpg" alt="logo" />
+      <!-- </div> -->
+      <nav class="desktop-view">
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
+          <!-- <li><a href="../index.html">Home</a></li> -->
+          <!-- <li><a href="/pages/about.html">About Us</a></li> -->
+          <li><a href="/pages/course.html">Courses</a></li>
           <li><a href="/pages/donate.html">Donate</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#signup">Sign up</a></li>
+          <li><a href="./contact.html">Contact Us</a></li>
+          <!-- <li id="signup"><a href="#signup">Sign up</a></li> -->
         </ul>
       </nav>
-
-      <!-- Add a button to toggle the mobile menu -->
-      <!-- <button class="menu-toggle" aria-label="Toggle Menu">&#9776;</button> -->
-
-      <!-- Mobile navigation -->
-      <!-- <nav class="mobile-nav">
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="/pages/donate.html">Donate</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#signup">Sign up</a></li>
-        </ul>
-      </nav> -->
     </header>
 
-    <main>
-      <section id="secton1">
-        <h1>Welcome to Your Website</h1>
-        <p>This is the home section of your website.</p>
-      </section>
+    <header id="mobile_header">
+      <!-- Use a div as the clickable area for mobile navigation -->
+      <div class="menu-toggle" aria-label="Toggle Menu">
+        <span class="menu-icon">&#9776;</span>
+      </div>
+      <!-- Mobile navigation -->
+      <nav class="mobile-nav">
+        <ul>
+          <!-- <li class="mobile-nav-li"><a href="#home">Home</a></li> -->
+          <li class="mobile-nav-li">
+            <a href="/pages/about.html">About Us</a>
+          </li>
+          <li class="mobile-nav-li">
+            <a href="/pages/course.html">Courses</a>
+          </li>
+          <!-- <li class="mobile-nav-li"><a href="/pages/donate.html">Donate</a></li> -->
 
-      <section id="secton2">
-        <h2>About Us</h2>
-        <p>Information about your company or yourself goes here.</p>
-      </section>
+          <li class="mobile-nav-li"><a href="/pages/donate.html">Donate</a></li>
+          <li class="mobile-nav-li"><a href="pages/contact.html">Contact Us</a></li>
+          <!-- <li class="mobile-nav-li"><a href="#signup">Sign up</a></li> -->
+        </ul>
+      </nav>
+    </header>
 
-      <section id="services">
-        <h2>Our Services</h2>
-        <p>Details about the services you offer.</p>
-      </section>
+  
+      <Section>
+        
+        <div class = "section1div" id = "news">
+          
+          <h1 class="site-owner-name">MAKING A DIFFERENCE TECH HUB </h1>
+          <div class="home-img-container">
+              <img class="home-page-img firstimg" src = "/img/four_people.jpg" >
+              <img class="home-page-img secondimg" src = "./img/two_ladies_with_a_system.jpg" >
+              <img class="home-page-img thirdimg" src = "/img/guy_on_red.jpg">
+          </div>
+          <p style="color:white; margin-top: 4rem; " class="center"> Exploring the vast world of <span style="color: orange;">technology</span> to drive innovation</p>
+          </div>
+      </Section> 
+  <main class="main">
+    <hr />
+    <!-- The next Section -->
+    <h1 class="course-range center">
+      WHAT WE DO
+    </h1>
+    <!-- UI/UX DESIGN -->
+    <br />
+    <section class="first-section">
+      <div class="img-container left">
+        <img
+          class="course_img"
+          src="/img/Drafting_and_mapping.jpg"
+          alt="first section"
+        />
+      </div>
 
-      <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Contact information and a form can be placed here.</p>
-      </section>
-    </main>
+      <div class="course-desc">
+        <h2 class="course">COURSE OFFERING</h2>
+        <p>
+          Our tech courses will be categorized into three levels:
 
-    <footer>
-      <p>&copy; 2023 Your Website. All rights reserved.</p>
+          Beginner, Intermediate, and Advanced. Participants can
+          
+          choose from a variety of courses tailored to their 
+          experience and interests. A detailed course catalogue will 
+          be provided to registered participants.        </p>
+        <button class="btn-get-started center"><a href="/pages/course.html"> GET STARTED</a></button>
+      </div>
+    </section>
+    <br />
+    <!-- EVENT HIGHLIGHTS -->
+    <section class="first-section">
+      <div class="course-desc">
+        <h2 class="course">EVENT HIGHLIGHTS</h2>
+        <p>
+          <ol>
+            <li type="A"><b> Keynote Speakers:</b>We have industry experts to share 
+              their knowledge and insights on the future of technology</li>
+            <li type="A"><b> Networking Opportunities:</b>Connect with colleagues 
+              from different departments, fostering cross-functional 
+              collaboration.</li>
+            <li type="A"><b> Career Advancement:</b>Gain new skills that can help 
+              advance your career within the organization</li>
+            <li type="A"><b> Practical Experience:</b>Engage in hands-on workshops to 
+              apply your learning in a real-world context.</li>
+            <li type="A"><b> Hackathon:</b>Showcase your creativity and problem-solving skills in a tech-oriented Hackathon.</li>
+          </ol>
+        </p>
+        <button class="btn-get-started center"><a href="pages/course.html">GET STARTED</a></button>
+      </div>
+      <div class="img-container left">
+        <img
+          class="course_img"
+          src="/img/Data_analysis.jpg"
+          alt="first section"
+        />
+      </div>
+    </section>
+    <br />
+    <br />
+
+
+    <!-- NEWS LETTER SECTION -->
+    <section class="first-section orange">
+      <div class="img-container left">
+        
+        <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
+          <p>Our Weekly Newsletter is a collection of the latest 
+            information from MDTF top tech stories, real talk from our 
+            CEO, and news about young techies changing the world</p>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="course-desc ">
+        <form action="" style="width: 500px; padding: 5px; margin-left: 2rem;">          
+          <label for="email">Email</label>
+          <input class="home-email-input" type="email" name="email" id="email" placeholder="Enter Your Email Address">
+          <br>
+          <!-- <sub style="font-weight: bold; text-align: justify  !important;" class="center">By entering your email address, you are confirming that you are 13+</sub> -->
+          <br>
+          <button class="mail-submit-btn "><a href="#" class="submit-anchor-link"> SUBMIT</a></button>
+        </form>
+        </div>
+    </section>
+  </main>
+
+      <footer>
+      <p>&copy; 2024 Your Website. All rights reserved.</p>
     </footer>
+    <!-- <script src="./scripts/second_site.js"></script> -->
+  <script src="./scripts//mobileNav.js"></script>
   </body>
 </html>

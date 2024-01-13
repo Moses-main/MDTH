@@ -251,6 +251,172 @@ header {
 }
 
 /* HOME PAGE */
+/* THE SECOND PROJECT CSS */
+
+.second_div {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.orange {
+  background-color: rgb(248, 223, 177);
+}
+
+.home-email-input {
+  height: 2rem;
+  width: 300px;
+  outline: #aaa;
+  display: block;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 3px;
+}
+.mail-submit-btn {
+  height: 2rem;
+  background-color: #05053f;
+  border-radius: 5px;
+  border: 1px solid #05053f;
+  width: 300px;
+}
+.submit-anchor-link {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+.read-more {
+  width: fit-content;
+  color: orange;
+  font-weight: bold;
+}
+
+.read-more:hover {
+  color: navy;
+  font-weight: lighter;
+  border-radius: 3px;
+  border: 1px solid #aaa;
+  padding: 5px;
+  box-shadow: 2px 3px 4px #aaa;
+}
+.home-img-container {
+  width: fit-content;
+  align-content: center;
+  text-align: center;
+  margin-top: 5rem;
+  border: 2px dashed orange;
+  border-radius: 3px;
+  margin: 5rem auto 0px;
+}
+.home-page-img {
+  border-radius: 10px;
+  margin: 5px;
+}
+.section1div {
+  height: 750px;
+  /* margin-top: 80px; */
+  background-color: #05053f;
+}
+.site-owner-name {
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  padding-top: 4rem;
+}
+.section1div img {
+  /* display: flexbox; */
+  height: 250px;
+  margin: 5px;
+  text-align: center;
+  width: auto;
+}
+
+.semidiv {
+  margin: 50px;
+}
+
+[class|="top"] {
+  color: orange;
+}
+
+.secdivthree {
+  display: flex;
+  justify-content: stretch;
+  margin: 30px;
+}
+
+.secdivfour {
+  margin: 50px;
+}
+
+/* THE SECOND PROJECT-SHEET CSS */
+.lastdiv1 {
+  background-color: antiquewhite;
+  position: relative;
+  top: 70px;
+}
+
+.lastinput {
+  width: 460px;
+  height: 30px;
+  position: relative;
+  left: 600px;
+  top: 110px;
+  background-color: white;
+}
+.lastinput::placeholder {
+  color: black;
+  position: relative;
+  left: 110px;
+}
+
+.lastdivtwo {
+  height: 350px;
+  margin: 30px 100px 0px;
+}
+
+.lasth1 {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+
+.lastp1 {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+
+.lastp2 {
+  position: absolute;
+  top: 170px;
+  left: 700px;
+}
+
+[type|="submit"] {
+  position: absolute;
+  position: absolute;
+  top: 230px;
+  left: 700px;
+  width: 460px;
+  height: 30px;
+  background-color: navy;
+  color: white;
+}
+
+.completeddiv {
+  color: white;
+  margin-top: 100px;
+  line-height: 2;
+}
+
+.completeddiv1 {
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 /* ABOUT PAGE */
 .pic-input-div {
