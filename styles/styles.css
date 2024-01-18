@@ -418,10 +418,55 @@ header {
   align-items: center;
 }
 
+/* MEDIUM SCREEN SIZE FOR THE HOME PAGE */
+@media screen and (max-width: 1050px) and (min-width: 884px) {
+  .site-owner-name {
+    font-size: 2rem;
+  }
+  .home-page-img {
+    height: 200px !important;
+  }
+}
+
+/* SMALL SCREEN SIZE FOR THE HOME PAGE */
+@media screen and (max-width: 884px) and (min-width: 200px) {
+  .home-img-container {
+    width: fit-content;
+    margin-top: 4px;
+  }
+
+  .home-page-img {
+    /* height: 5px !important; */
+    display: block;
+  }
+
+  .site-owner-name {
+    font-size: 1.5rem;
+  }
+
+  label {
+    font-size: 1rem;
+  }
+  .home-page-img {
+    width: 220px !important;
+    height: auto !important;
+  }
+  .newsletter-heading {
+    font-size: 1rem;
+  }
+
+  .newsletter-word {
+    font-size: 15px !important;
+  }
+  .site-owner-name {
+    font-size: 1.4rem;
+  }
+}
+
 /* ABOUT PAGE */
 .pic-input-div {
   text-align: justify;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 400px;
   padding: 0px 0px 10px 40px;
   /* margin: 0px 0px 0px; */
