@@ -46,13 +46,11 @@ nav.desktop-view ul li a:hover {
   border: 1px solid white;
   padding: 7px 7px 7px 7px;
 }
-
+/* ------------------------ */
 /* FOOTER IN ALL THE PAGES*/
+/* ------------------------ */
 footer {
   position: relative;
-  /* bottom: 0px; */
-  /* padding: 0px 0px 5px 20px; */
-  /* width: 100%; */
   margin: 0px auto;
   color: white;
   padding: 5px;
@@ -215,10 +213,6 @@ header {
     z-index: 1500;
   }
 
-  /* Mobile navigation styles */
-  /* .mobile-nav {
-    display: block;
-  } */
   .menu-toggle:focus {
     outline: none; /* Remove default focus outline */
   }
@@ -249,10 +243,9 @@ header {
     font-size: small;
   }
 }
-
+/* --------------- */
 /* HOME PAGE */
-/* THE SECOND PROJECT CSS */
-
+/* ---------------- */
 .second_div {
   height: 120px;
   display: flex;
@@ -350,7 +343,6 @@ header {
   margin: 50px;
 }
 
-/* THE SECOND PROJECT-SHEET CSS */
 .lastdiv1 {
   background-color: antiquewhite;
   position: relative;
@@ -427,8 +419,9 @@ header {
     height: 200px !important;
   }
 }
-
+/* -=--------------------------------- */
 /* SMALL SCREEN SIZE FOR THE HOME PAGE */
+/* ----------------------------------- */
 @media screen and (max-width: 884px) and (min-width: 200px) {
   .home-img-container {
     width: fit-content;
@@ -462,8 +455,9 @@ header {
     font-size: 1.4rem;
   }
 }
-
+/* ----------- */
 /* ABOUT PAGE */
+/* ------------ */
 .pic-input-div {
   text-align: justify;
   /* border: 1px solid red; */
@@ -471,6 +465,11 @@ header {
   padding: 0px 0px 10px 40px;
   /* margin: 0px 0px 0px; */
 }
+
+/* --------------------- */
+/*----- CONTACT PAGE ---- */
+/* ----------------------- */
+
 .contact-label {
   display: block;
   margin-top: 14px;
@@ -487,30 +486,37 @@ header {
 }
 
 .contact-msg {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   text-align: justify;
   padding: 10px;
-  width: 2rem;
+  width: 300px;
   background-color: rgb(253, 245, 221);
   justify-self: start;
   border: 1px solid transparent;
   border-radius: 5px;
   outline: #aaa;
 }
+
 .contact-submit {
   color: white;
   display: block;
   width: 280px;
-  margin-top: 20px;
-  padding: 12px;
+  margin: 20px 0px 0px 22px;
+  padding: 10px;
   border-radius: 6px;
   border: 1px solid #05053f;
   background-color: #05053f;
 }
-.msg-button-div {
-  text-align: center;
+
+.about-overall-container {
+  border-radius: 3px;
+  border: 1px solid #05053f;
+  width: fit-content;
 }
+
+/* --------- */
 /* COURSES */
+/* -------- */
 
 .first-section {
   /* border: 1px solid red; */
@@ -576,8 +582,9 @@ header {
   /* width: 100% !important; */
   background-color: rgb(247, 239, 196);
 }
-
+/* ---------------------------------------- */
 /* MEDIUM SCREEN SIZES FOR THE COURSES PAGE */
+/* ---------------------------------------- */
 @media screen and (max-width: 1319px) and (min-width: 246px) {
   .course-desc {
     border-radius: 5px;
@@ -597,8 +604,9 @@ header {
     margin: 0px 0px 0px -20px;
   }
 }
-
+/* -------------------------------------- */
 /* SMALL SCREEN SIZE FOR THE COURSES PAGE */
+/* -------------------------------------- */
 @media screen and (max-width: 870px) {
   .course-desc {
     margin: 80px 0px 0px 0px;
