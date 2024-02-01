@@ -577,8 +577,60 @@ header {
 }
 .testimony-generic {
   /* display: inline-block; */
-  /* border: 1px solid red !important; */
   text-align: center;
+}
+
+/* -=--------------------------------- */
+/* SMALL SCREEN SIZE FOR THE ABOUT US PAGE */
+/* ----------------------------------- */
+@media screen and (max-width: 884px) and (min-width: 200px) {
+  .mission-word {
+    font-size: 100% !important;
+    /* border: 1px solid red; */
+    text-align: justify !important;
+    width: 80%;
+  }
+
+  .banner-container {
+    /* Set the height and width of your container */
+    /* width: 100%; */
+
+    height: 250px; /* Adjust as needed */
+
+    /* Set the background image */
+    background-image: url("/img/cybersecurity.jpg"); /* Replace with the path to your image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image within the container */
+
+    /* Add additional styles as needed */
+    color: #fff; /* Text color on top of the image */
+    text-align: center; /* Center the text within the container */
+    padding: 10px; /* Add padding to the container */
+  }
+
+  .team-description {
+    font-size: 200% !important;
+  }
+
+  .cont-img {
+    height: 300px !important;
+    width: auto !important;
+  }
+  .main {
+    text-align: justify !important;
+    width: 95% !important;
+    margin: 0px auto;
+    /* color: red; */
+    /* text-align: justif1y; */
+  }
+  .mission-statement-heading,
+  .course {
+    font-size: 150% !important;
+  }
+
+  .testimony-container {
+    font-size: 90%;
+  }
 }
 /* --------------------- */
 /*----- CONTACT PAGE ---- */
