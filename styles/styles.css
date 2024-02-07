@@ -781,6 +781,10 @@ header {
     width: 250px !important;
   }
 
+  .course-desc p {
+    font-size: 200%;
+  }
+
   .event-structure,
   .you-cant-be {
     font-size: 1.1rem;
