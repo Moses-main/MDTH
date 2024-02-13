@@ -471,7 +471,7 @@ header {
   }
   #event-hightlight-container ol li {
     width: 160%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
   }
   .event-point {
     width: 220%;
