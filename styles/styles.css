@@ -465,7 +465,14 @@ header {
   .course-words {
     font-size: 220% !important;
   }
-
+  #event-hightlight-container {
+    width: 90%;
+    padding: 5px;
+  }
+  #event-hightlight-container ol li {
+    width: 160%;
+    border: 1px solid green;
+  }
   .event-point {
     width: 220%;
     margin-left: -90px;
