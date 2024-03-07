@@ -471,10 +471,10 @@ header {
   }
   #event-hightlight-container ol li {
     width: 160%;
-    /* border: 1px solid green; */
   }
+
   .event-point {
-    width: 130%;
+    width: 100% !important;
     margin-left: -50px;
     padding: 5px 0px;
     text-align: justify;
