@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="/img/MDTF_logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/fav_jcon.jpg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MTDF | Courses</title>
+  </head>
+  <body>
+    <header id="deskop_header">
+      <img class="nav-img" src="/img/MDTH_Logo(white).jpg" alt="logo" />
+      <nav class="desktop-view">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="/pages/about.html">About</a></li>
+          <li><a href="/pages/course.html">Courses</a></li>
+          <li><a href="/pages/donate.html">Partner</a></li>
+          <!-- <li><a href="/pages/contact.html">Contact</a></li> -->
+          <!-- <li id="signup"><a href="#signup">Sign up</a></li> -->
+        </ul>
+      </nav>
+    </header>
+
+    <header id="mobile_header">
+      <div class="menu-toggle" aria-label="Toggle Menu">
+        <span class="menu-icon">&#9776;</span>
+      </div>
+      <nav class="mobile-nav">
+        <ul>
+          <li class="mobile-nav-li"><a href="../index.html">Home</a></li>
+          <li class="mobile-nav-li">
+            <a href="/pages/course.html">Courses</a>
+          </li>
+          <li class="mobile-nav-li"><a href="/pages/donate.html">Partner</a></li>
+          <!-- <li class="mobile-nav-li"><a href="/pages/contact.html">Contact</a></li> -->
+          <li class="mobile-nav-li"><a href="/pages/about.html">About</a></li>
+          <!-- <li class="mobile-nav-li"><a href="#signup">Sign up</a></li> -->
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="about-overall-container center" >
+
+        <form action="https://formsubmit.co/mdtfdigitalworld@gmail.com" method="POST">
+          <div class="pic-input-div">    
+        <h2>We're Available 24/7</h2>
+            <div class="">
+              <div class="contact-img-container">
+                <!-- <img
+                  src="../img/contact_us.jpg"
+                  alt="contact us"
+                  class="img-container"
+                /> -->
+              </div>
+      
+            <label class="contact-label" for="fullname">Full Name</label>
+            <input
+              type="text"
+              class="contact-input"
+              name="fullname"
+              placeholder="Akindiya Beulah"
+              id="fullname" required
+            />
+            <br />
+            <label class="contact-label" for="email">Email</label>
+            <input
+              class="contact-input"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="example@gmail.com" required
+            />
+            <br />
+            <br />
+          </div>
+          <div class="msg-button-div">
+            <textarea
+              name="messageBody"
+              id="messageBody"
+              rows="10"
+              cols="12"
+              class="contact-msg"
+              placeholder="Enter your message" required
+            >
+            </textarea>
+          </div>
+          <button class="contact-submit">Submit</button>
+        </form>
+      </div>
+    </main>
+
+    <br />
+    <br>
+    <br>
+    <footer>
+      <p>&copy; MDTH 2024. All rights reserved.</p>
+    </footer>
+    <script src="/scripts/mobileNav.js"></script>
+  </body>
+</html>
