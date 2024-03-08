@@ -806,7 +806,8 @@ header {
   }
 
   .course-desc p {
-    font-size: 200%;
+    font-size: 180%;
+    font-weight: bold;
   }
 
   .event-structure,
